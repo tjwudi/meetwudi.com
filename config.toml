@@ -2,3 +2,16 @@ baseURL = "https://meetwudi.com/"
 languageCode = "en-us"
 title = "meetwudi@"
 theme = "hugo-ink"
+
+[params]
+  avatar = "/corg.png"
+
+[[menu.main]]
+name = "/home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "/about"
+url = "/about"
+weight = 2
